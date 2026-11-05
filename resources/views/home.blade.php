@@ -48,7 +48,7 @@
     <div class="hero-content">
 
         <h1>
-            Sistem Penjanaan Dokumen Kerjaya (Resume)
+            Sistem Penjanaan Dokumen Kerjaya (Resum)
             Berasaskan Kecerdasan Buatan (AI)
         </h1>
 
