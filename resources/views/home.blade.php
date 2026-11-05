@@ -7,8 +7,7 @@
 <header class="navbar">
 
     <a href="{{ route('home') }}" class="brand">
-        Sistem Penjanaan Dokumen Kerjaya (Resume) Berasaskan
-        Kecerdasan Buatan (AI)
+        <img src="{{ asset('images/logo.png') }}" alt="HAResume">
     </a>
 
     <nav>

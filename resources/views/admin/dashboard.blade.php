@@ -7,7 +7,6 @@
 <header class="navbar">
 
     <a href="{{ route('admin.dashboard') }}" class="brand">
-        ERESUME - ADMIN
     </a>
 
     <nav>
