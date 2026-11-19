@@ -43,6 +43,12 @@ Route::middleware(['auth', 'role:user'])
         Route::get('/dashboard', [UserController::class, 'dashboard'])
             ->name('dashboard');
 
+        Route::get('/templates', [UserController::class, 'templates'])
+            ->name('templates');
+
+        Route::get('/resume/form/{template}', [UserController::class, 'resumeForm'])
+            ->name('resume.form');
+
     });
 
 Route::post('/logout', [AuthController::class, 'logout'])
